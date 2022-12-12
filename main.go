@@ -22,10 +22,20 @@ var reservations = []reservation{
 func addReservation(c *gin.Context) {
 	var newReservation reservation
 
+	version := c.Param("version")
+	fmt.Println("Version", version)
+	if version == "v2" {
+		c.Header("Access-Control-Allow-Origin", "http://localhost:8080")
+	} else {
+		c.IndentedJSON(http.StatusBadRequest, newReservation)
+		log.Fatal("Not the right key")
+	}
+
 	if err := c.BindJSON(&newReservation); err != nil {
-		log.Fatal(err)
+
 		return
 	}
+
 	reservations = append(reservations, newReservation)
 	fmt.Println(reservations)
 	c.IndentedJSON(http.StatusCreated, newReservation)
@@ -33,6 +43,6 @@ func addReservation(c *gin.Context) {
 
 func main() {
 	router := gin.Default()
-	router.POST("/reservations", addReservation)
-	router.Run("localhost:8080")
+	router.POST("/reservations/:version", addReservation)
+	router.Run("localhost:8000")
 }
