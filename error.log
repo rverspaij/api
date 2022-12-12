@@ -1,0 +1,37 @@
+[33mWARNING: [0m2022/12/12 19:24:29 main.go:64: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:24:30 main.go:64: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:24:31 main.go:64: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:24:34 main.go:64: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:24:34 main.go:64: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:24:34 main.go:64: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:24:36 main.go:64: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:24:37 main.go:64: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:24:37 main.go:64: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:24:37 main.go:64: Unauthorized user tried to connect!
+[31mERROR: [0m2022/12/12 19:25:06 main.go:67: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:04 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:08 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:14 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:14 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:21 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:21 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:33 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:33 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:33 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:39 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:39 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:39 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:39 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:43 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:43 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:43 main.go:62: Unauthorized user tried to connect!
+[33mWARNING: [0m2022/12/12 19:40:43 main.go:62: Unauthorized user tried to connect!
+WARNING: 2022/12/12 19:41:48 main.go:62: Unauthorized user tried to connect!
+WARNING: 2022/12/12 19:41:55 main.go:62: Unauthorized user tried to connect!
+WARNING: 2022/12/12 19:42:34 Unauthorized user tried to connect!
+WARNING: 2022/12/12 19:42:35 Unauthorized user tried to connect!
+WARNING: 2022/12/12 19:44:34 main.go:63: Unauthorized user tried to connect!
+WARNING: 2022/12/12 19:44:35 main.go:63: Unauthorized user tried to connect!
+WARNING: 2022/12/12 19:45:20 main.go:63: Unauthorized user tried to connect!
+WARNING: 2022/12/12 19:45:21 main.go:63: Unauthorized user tried to connect!
+WARNING: 2022/12/12 19:53:12 main.go:63: Unauthorized user tried to connect!
