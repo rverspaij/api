@@ -13,8 +13,6 @@ import (
 type reservation struct {
 	Username string `json:"username"`
 	Password string `json:"password"`
-	// LastName	string		`json:"lastname"`
-	// Time		int			`json:"time"`
 }
 
 var reservations = []reservation{
