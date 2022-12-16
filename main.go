@@ -29,14 +29,13 @@ func main() {
 func addReservation(c *gin.Context) {
 	var newReservation reservation
 
-	version := c.Param("version")
-
 	data, err := os.ReadFile("./api.key") // Checking for an API key in a .key file
 	if err != nil {
 		log.Fatal("Could not read the Key File: ", err)
 	}
 	apikey := string(data)
 
+	version := c.Param("version")
 	fmt.Println("Version:", version)
 	if version == apikey {
 		c.Header("Access-Control-Allow-Origin", "http://localhost:8080")
