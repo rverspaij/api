@@ -37,7 +37,7 @@ func addReservation(c *gin.Context) {
 	}
 	apikey := string(data)
 
-	fmt.Println("Version", version)
+	fmt.Println("Version:", version)
 	if version == apikey {
 		c.Header("Access-Control-Allow-Origin", "http://localhost:8080")
 		if err := c.BindJSON(&newReservation); err != nil {
@@ -49,7 +49,7 @@ func addReservation(c *gin.Context) {
 		return
 	} else {
 		c.IndentedJSON(http.StatusBadRequest, newReservation)
-		err := errors.New("Unauthorized user tried to connect!")
+		err := errors.New("unauthorized user tried to connect")
 		errorHandler(nil, err)
 		return
 	}
